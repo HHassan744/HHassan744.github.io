@@ -1,0 +1,167 @@
+/* --------------------------------
+   Basic page
+   -------------------------------- */
+
+body {
+    margin: 0;
+    background-color: #faf7e8;
+    color: #29251f;
+
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* --------------------------------
+   Main container
+   -------------------------------- */
+
+header,
+nav,
+main,
+footer {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* --------------------------------
+   Header
+   -------------------------------- */
+
+header {
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.subtitle {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+    font-size: 20px;
+    color: #625b4f;
+}
+
+
+/* --------------------------------
+   Navigation
+   -------------------------------- */
+
+nav {
+    border-top: 1px solid #b9b19f;
+    border-bottom: 1px solid #b9b19f;
+
+    padding: 10px 0;
+}
+
+nav a {
+    margin-right: 28px;
+
+    color: #29251f;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* --------------------------------
+   Main content
+   -------------------------------- */
+
+main {
+    padding-top: 45px;
+}
+
+section {
+    margin-bottom: 55px;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+
+    font-size: 28px;
+    font-weight: normal;
+}
+
+p {
+    max-width: 720px;
+}
+
+
+/* --------------------------------
+   Links
+   -------------------------------- */
+
+a {
+    color: #55452d;
+}
+
+
+/* --------------------------------
+   Footer
+   -------------------------------- */
+
+footer {
+    border-top: 1px solid #b9b19f;
+
+    margin-top: 70px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+    color: #766f63;
+    font-size: 14px;
+}
+
+
+/* --------------------------------
+   Mobile
+   -------------------------------- */
+
+@media (max-width: 900px) {
+
+    header,
+    nav,
+    main,
+    footer {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 17px;
+    }
+
+    header {
+        padding-top: 35px;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .subtitle {
+        font-size: 18px;
+    }
+
+    nav a {
+        margin-right: 18px;
+    }
+
+}
